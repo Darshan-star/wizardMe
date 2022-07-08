@@ -1,0 +1,254 @@
+/* Global CSS */
+.heading h1,
+.heading h2,
+.heading p,
+.heading h3,
+.top-heading h1{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+/* End of Global CSS */
+
+.container{
+    min-height: 30rem;
+    height: fit-content;
+    width: 100%;
+}
+
+/* Banner */
+
+.banner{
+    min-height: 30rem;
+    height: fit-content;
+    width: fit-content;
+    min-width: 73rem;
+    margin: auto;
+    background: #f0f8ff;
+    border: 0.1rem solid #000;
+    position: relative;
+}
+
+.image-scroller, .banner-container{
+    min-height: 30rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.image-scroller img:nth-child(2){
+    height: 15rem;
+    width: 40rem;
+    position: relative;
+    left: 6rem;
+    top: 8rem;
+}
+
+.decoration,
+.decoration-2{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    top: 5.7rem;
+    left: 25.7rem;
+}
+
+.decoration-2{
+    left: 4.5rem;
+    transform: rotateY(180deg);
+}
+
+.heading{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.heading h1{
+    font-size: 3.8rem;
+    font-family: "dancing script";
+    top: 7rem;
+    left: 40%;
+    color: var(--Primary-Background);
+    text-shadow: 2px 2px 2px var(--Secondary-Background);
+}
+
+.heading p{
+    width: 25rem;
+    top: 8rem;
+    left: 30%;
+    letter-spacing: 1px;
+    word-spacing: 0.7rem;
+    font-family: cookie;
+    font-size: 1.5rem;
+    color: var(--Secondary-Background);
+    text-shadow: 1px 1px 2px var(--Primary-Background);
+}
+
+.heading h3{
+    top: 9rem;
+    font-size: 2rem;
+    left: 50%;
+    font-family: "satisfy";
+    color: var(--Primary-Background);
+    text-shadow: 2px 2px 2px var(--Secondary-Background);
+}
+
+.heading h2{
+    top: 10rem;
+    font-size: 3rem;
+    font-family: "dancing script";
+    left: 42%;
+    color: var(--Background);
+    text-shadow: 2px 2px 3px var(--Primary-Background), 3px 3px 3px var(--Secondary-Background);
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1172px) {
+    .banner{
+        height: 50rem;
+        width: calc(100% - 0.2rem);
+        min-width: 1rem;
+    }
+    .banner-container{
+        display: block;
+        height: 100%;
+    }
+
+    .image-scroller img:nth-child(2){
+        top: 30rem;
+        left: calc(50% - 20rem);
+    }
+
+    .heading{
+        margin: auto;
+        left: calc(50% - 17rem);
+        position: absolute;
+    }
+    .heading h1{
+        margin: 0;
+    }
+    .decoration{
+        position: absolute;
+        right: -3rem;
+        bottom: 0;
+    }   
+}
+
+@media screen and (max-width: 660px){
+    .image-scroller img:nth-child(2){
+        height: 35vw;
+        width: 95%;
+        left: 2.5%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .banner{
+        height: 45rem;
+    }
+
+    .heading h1{
+        font-size: 3rem;
+    }
+    .decoration,
+    .decoration-2{
+        width: 4rem;
+        height: 4rem;
+        top: 6.4rem;
+    }
+    .decoration{
+        margin-left: -2rem;
+    }
+
+    .decoration-2{
+        margin-left: 1rem;
+    }
+
+    .heading p{
+        left: 20%;
+    }
+
+    .heading h3{
+        left: 45%;
+    }
+    .heading h2{
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .heading h1{
+        font-size: 2.5rem;
+        left: 60%;
+    }
+
+    .banner{
+        height: 42rem;
+    }
+
+    .heading p{
+        width: 20rem;
+        left: 43%;
+    }
+
+    .decoration{
+        margin-left: -2.5rem;
+    }
+
+    .decoration-2{
+        margin-left: 3rem;
+    }
+
+    .heading h3{
+        left: 63%;
+    }
+
+    .heading h2{
+        left: 53%;
+    }
+}
+/* End of Responsiveness */
+
+
+/* End of Banner */
+
+/* Product List*/
+.product-list-container{
+    margin: 0rem 0;
+}
+.product-list-container,
+.top-heading{
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.top-heading{
+    height: 10rem;
+}
+
+.top-heading h1{
+    margin: auto;
+    top: calc(50% - 2rem);
+    font-size: 3rem;
+    font-family: satisfy;
+    color: var(--Primary-Background);
+    text-shadow: 2px 2px 2px var(--Secondary-Background), 3px 3px 5px var(--Primary-Background);
+    letter-spacing: 2px;
+}
+
+.top-heading img{
+    height: 10rem;
+    width: 20rem;
+    position: relative;
+    top: 1rem;
+    left: calc(50% - 10rem);
+
+}
+
+
+/* End of Product List*/

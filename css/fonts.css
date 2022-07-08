@@ -1,0 +1,36 @@
+@import url(../fonts/boxicons.ttf);
+
+/* Importing Fonts */
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/Satisfy-Regular.ttf) format('woff');
+}
+@font-face {
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 100;
+src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/DancingScript-Regular.ttf) format('woff');
+}
+
+@font-face {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/Cookie-Regular.ttf) format('woff');
+}
+@font-face {
+    font-family: 'Great vibes';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/GreatVibes-Regular.ttf) format('woff');
+}
+@font-face {
+    font-family: 'Smooch';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/Smooch-Regular.ttf) format('woff');
+}    
+            
+/* End of Importing Fonts */
