@@ -28,6 +28,10 @@ include 'components/wishlist_cart.php';
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+
+   <link rel="stylesheet" href="magnify.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
 </head>
 <body>
    
@@ -52,7 +56,7 @@ include 'components/wishlist_cart.php';
       <div class="row">
          <div class="image-container">
             <div class="main-image">
-               <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
+               <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">     
             </div>
             <div class="sub-image">
                <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
@@ -98,6 +102,17 @@ include 'components/wishlist_cart.php';
 <?php include 'components/footer.php'; ?>
 
 <script src="js/script.js"></script>
+
+
+
+    <script src="jquery.magnify.js" charset="utf-8"></script>
+    <script>
+    $(document).ready(function() {
+      $('.zoom').magnify();
+    });
+    </script>
+
+
 
 </body>
 </html>
